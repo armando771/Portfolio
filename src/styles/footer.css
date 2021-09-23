@@ -1,0 +1,18 @@
+.footer-bar {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(75, 75, 75);
+  align-items: center;
+  justify-content: space-around;
+}
+
+#icongit {
+  width: 40px;
+}
+
+#iconlinkedin {
+  width: 40px;
+}

@@ -1,0 +1,25 @@
+.picture {
+  width: 350px;
+  height: 350px;
+  border-radius: 45%;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.mainHomeContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(75, 75, 75);
+  height: 500px;
+  color: rgb(255, 255, 255);
+}
+
+#title-home {
+  font-size: 35px;
+}
+
+.informationsHome {
+  padding-bottom: 120px;
+
+}
