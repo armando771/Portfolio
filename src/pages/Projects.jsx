@@ -18,6 +18,7 @@ function Projects(){
         <a href="https://github.com/tryber/sd-012-project-react-testing-library/tree/Armando-Guerra-Project-React-Testing-Library/src/tests" target="_blank" rel="noreferrer">Project: Test React Library</a>
         <a href="https://github.com/tryber/sd-12-project-frontend-online-store/tree/main-group-7/src/components" target="_blank" rel="noreferrer">Project: Front End Online Store</a>
         <a href="https://armando771.github.io/ProjectMovieCrud/" target="_blank" rel="noreferrer">Project:Movie Library Crud</a>
+        <a href="https://armando771.github.io/Project-Movie-Library/" target="_blank" rel="noreferrer">Project:Movie Library</a>
         </div>
       </div>
     );
