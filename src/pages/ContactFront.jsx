@@ -1,13 +1,13 @@
 import React from "react";
 
-import "../styles/footer.css";
+import "../styles/footerFront.css";
 
-class Contact extends React.Component {
+class ContactFront extends React.Component {
   render() {
     return (
-      <footer className="footer-bar">
+      <footer className="footer-bar-front">
         <a
-          className="link-footer-linkedin"
+          className="link-footer-linkedin-front"
           href="https://www.linkedin.com/in/armando-starling-43b3b8201/"
           target="_blank"
           rel="noreferrer"
@@ -15,11 +15,11 @@ class Contact extends React.Component {
           <img
             src="https://image.flaticon.com/icons/png/512/174/174857.png"
             alt="icon-linkedin"
-            id="iconlinkedin"
+            id="iconlinkedin-front"
           />
         </a>
         <a
-          className="link-footer-github"
+          className="link-footer-github-front"
           href="https://github.com/armando771"
           target="_blank"
           rel="noreferrer"
@@ -27,7 +27,7 @@ class Contact extends React.Component {
           <img
             src="https://image.flaticon.com/icons/png/512/25/25231.png"
             alt="icon-github"
-            id="icongit"
+            id="icongit-front"
           />
         </a>
 
@@ -37,4 +37,4 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact;
+export default ContactFront;

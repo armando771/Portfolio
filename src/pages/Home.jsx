@@ -1,6 +1,7 @@
 import React from "react";
 import ImagePortfolio from '../images/imagePortfolio.jpg';
 import "../styles/home.css";
+import Contact from "./Contact";
 
 class Home extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class Home extends React.Component {
           alt="Foto do Autor do Portifolio"
           className="picture"
         />
+        <Contact />
       </main>
     );
   }
