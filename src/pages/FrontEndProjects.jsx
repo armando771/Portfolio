@@ -2,17 +2,16 @@ import React from "react";
 import ProjectCard from '../components/ProjectCard';
 import Informations from "../data";
 import ContactFront from "./ContactFront";
-import { Link } from 'react-router-dom';
 import '../styles/projects.css';
-import SetaVoltar from '../images/SetaVoltar.jpg';
+import Header from '../components/Header';
 
 function FrontEndProjects() {
   return (
     <div>
-      <Link to="/projects"><img  id="icon-back" src={ SetaVoltar } alt="icone_Seta_Tras"/></Link> 
-    <div className="projects-container">
+      <Header buttonBack="true"/>
+    <div className="projects-container" >
      {
-      Informations.map((info) => <ProjectCard refs={ info.URLS } title={ info.ProjectName } key={ info.ProjectName }/> )
+      Informations.map((info) => <ProjectCard refs={ info.URLS } title={ info.ProjectName } key={ info.ProjectName } about={ info.AboutProject } /> )
      }
     </div>
     <ContactFront />
