@@ -1,24 +1,24 @@
 .about-container {
-text-align: center;
-height: 500px;
-background-color: rgb(75, 75, 75);
-color: white;
+  text-align: center;
+  height: 500px;
+  background-color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
 }
 
-.paragraph-about{
+.paragraph-about {
   width: 40%;
   margin: auto;
   padding: 10px;
 }
 
-#title-about{
-padding-top: 50px;
+#title-about {
+  padding-top: 50px;
 }
 
-#subtitle-about{
-padding-top: 20px;
+#subtitle-about {
+  padding-top: 20px;
 }
 
-#about-Trybe{
-    color: rgb(26, 204, 26);
+#about-Trybe {
+  color: rgb(26, 204, 26);
 }

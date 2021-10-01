@@ -1,3 +1,8 @@
+
+html{
+  background-color: rgb(0, 0, 0);
+}
+
 .picture {
   width: 350px;
   height: 350px;
@@ -9,9 +14,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(75, 75, 75);
+  background-color: rgb(243, 243, 243);
   height: 500px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 #title-home {
@@ -19,6 +24,100 @@
 }
 
 .informationsHome {
-  padding-bottom: 120px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.home-text {
+  font-family: monospace;
+  font-size: 26px;
+  margin: 2px;
+  animation-name: homeText;
+  animation-duration: 6s;
+}
+
+.home-text-name {
+  font-family: monospace;
+  font-size: 40px;
+  margin: 2px;
+  margin-bottom: 5px;
+  animation-name: homeTextName;
+  animation-duration: 6s;
+}
+
+.isDeveloperContainer {
+  display: flex;
+  font-family: monospace;
+  width: 300px;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+@keyframes IsDeveloper {
+ from {
+   opacity: 0;
+   width: 0;
+ }
+ to {
+   opacity: 1;
+   width: 100%;
+ }
+
+}
+
+@keyframes homeText {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+  
+}
+
+@keyframes homeTextName {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.animation-css {
+  animation: IsDeveloper 6s infinite linear;
+  overflow: hidden;
+  animation-direction: initial;
+}
+
+#const {
+  color: rgb(143, 31, 143);
+}
+
+#developer {
+  color: rgb(25, 125, 206);
+}
+
+#recebe {
+  color: rgb(143, 31, 143);
+}
+
+#true {
+  color: rgb(238, 142, 32);
+}
+
+
+@keyframes opening {
+  to {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  from {
+    transform: translateY(40px);
+  }
 }

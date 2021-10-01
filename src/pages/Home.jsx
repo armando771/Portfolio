@@ -9,10 +9,11 @@ function Home() {
       <>
         <Header />
         <main className="mainHomeContainer">
+          <div> </div>
           <div className="informationsHome">
-            <h1 id="title-home"> MEU PORTFOLIO </h1>
-            <h4> Ola! Me chamo Armando. </h4>
-            <p> Sou estudante de desenvolvimento web na Trybe</p>
+            <h2 className="home-text"> hello. I am </h2>
+            <h1 className="home-text-name"> Armando Guerra</h1>
+            <p className="isDeveloperContainer animation-css"><span id="const">const</span><span id="developer">IsDeveloper</span><span id="recebe">=</span><span id="true">true</span> </p>
           </div>
           <img
             src={ImagePortfolio}
