@@ -1,8 +1,14 @@
 import React from "react";
+import Contact from "./Contact";
+import Header from '../components/Header';
 
 function FunctionsProjects() {
   return (
-    <div></div>
+    <div>
+      <Header buttonBack="true" />
+      Functions Projects
+      <Contact/>
+    </div>
   )
 }
 

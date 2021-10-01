@@ -2,8 +2,8 @@ import React from "react";
 import ProjectCard from '../components/ProjectCard';
 import Informations from "../data";
 import ContactFront from "./ContactFront";
-import '../styles/projects.css';
 import Header from '../components/Header';
+import '../styles/projects.css';
 
 function FrontEndProjects() {
   return (

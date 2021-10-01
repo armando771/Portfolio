@@ -16,6 +16,13 @@ a {
   margin-bottom: 40px;
 }
 
+.projects-container-pp {
+  display: flex;
+  height: 120%;
+  justify-content: space-between;
+}
+
+
 .Front-End-Projects {
   border: 1px solid black;
   width: 28%;
@@ -54,6 +61,8 @@ a {
 
 #paragraphProjects {
   color: white;
+  font-size: 22px;
+  font-family: monospace;
 }
 
 #ttileProjects {
@@ -70,3 +79,32 @@ a {
   color: white;
   text-align: justify;
 }
+
+.FunctionsProjects {
+  border: 1px solid black;
+  width: 28%;
+  height: 50%;
+  margin-top: 50px;
+  background-image: url("../images/FundoBotaoFrontEnd.jpg");
+}
+
+.paragraph-Functions{
+  color: white !important;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.BackEndProjects {
+  border: 1px solid black;
+  width: 28%;
+  height: 50%;
+  margin-top: 50px;
+  background-image: url("../images/FundoBotaoFrontEnd.jpg");
+}
+
+.paragraph-Back-End{
+  color: white !important;
+  font-size: 30px;
+  font-family: monospace;
+}
+
