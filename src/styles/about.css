@@ -1,8 +1,44 @@
 .about-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.about-container-informations {
   text-align: center;
   height: 500px;
   background-color: rgb(243, 243, 243);
   color: rgb(0, 0, 0);
+  height: max-content;
+  padding-bottom: 80px;
+}
+
+.hardSkillsContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+  height: 400px;
+  padding: 5px;
+  margin-top: 2px;
+}
+
+.first-line-tecnologies {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.second-line-tecnologies {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.third-line-tecnologies {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .paragraph-about {
@@ -15,10 +51,32 @@
   padding-top: 50px;
 }
 
-#subtitle-about {
-  padding-top: 20px;
-}
-
 #about-Trybe {
   color: rgb(26, 204, 26);
+  margin-left: 3px;
+}
+
+#react-icon {
+  width: 30px;
+}
+
+.icons-hard-skills {
+  width: 60px;
+  animation: pictures 8s;
+}
+
+#text-tecnologies {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+@keyframes pictures {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+  }
 }

@@ -1,6 +1,7 @@
 import React from "react";
-import Contact from "./Contact";
+import ContactFront from "./ContactFront";
 import Header from "../components/Header";
+import HardSkills from "../components/HardSkills";
 import "../styles/about.css";
 
 class About extends React.Component {
@@ -9,26 +10,20 @@ class About extends React.Component {
       <>
         <Header />
         <div className="about-container">
-          <h2 id="title-about"> Meu nome e Armando Guerra Starling</h2>
-          <h4 id="subtitle-about">
-            Sou natural de Belo-Horizonte Minas Gerais
+        <div className="about-container-informations">
+          <h2 id="title-about"> hello ,my name is Armando Guerra</h2>
+          <h4 id="subtitle-about"> 
+            i am Front End Developer <img id="react-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react-icon"/>
           </h4>
+          <p className="paragraph-about" id="student">
+          I'm a development student at <span id="about-Trybe">Trybe</span> </p>
           <p className="paragraph-about">
-            Atualmente estudo Desenvolvimento Web na
-            <span id="about-Trybe">Trybe</span>
+          Always a passion for technology, and in development it was where I found an opportunity to reconcile a passion with a future profession.
           </p>
-          <p className="paragraph-about">
-            Sempre tive uma paixão por tecnologia, e no desenvolvimento foi onde
-            encontrei uma oportunidade de conciliar uma paixao a uma futura
-            profissão.
-          </p>
-          <p className="paragraph-about">
-            A cada erro,tentativa,frustação nesta caminhada que estou trilhando,
-            me vejo cada vez mais engajado e motivado a sempre melhorar e
-            estudar cada vez mais para me tornar um excelente desenvolvedor!
-          </p>
-          <Contact />
         </div>
+        <HardSkills />
+        </div>
+        <ContactFront />
       </>
     );
   }

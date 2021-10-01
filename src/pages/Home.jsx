@@ -1,7 +1,8 @@
 import React from "react";
 import ImagePortfolio from "../images/imagePortfolio.jpg";
-import Contact from "./Contact";
+import ContactFront from "./ContactFront";
 import Header from "../components/Header";
+import FormEmail from "../components/FormEmail";
 import "../styles/home.css";
 
 function Home() {
@@ -20,8 +21,9 @@ function Home() {
             alt="Foto do Autor do Portifolio"
             className="picture"
           />
-          <Contact />
         </main>
+         <FormEmail />
+        <ContactFront />
       </>
     );
   }

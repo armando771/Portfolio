@@ -88,7 +88,6 @@ html{
   }
 }
 
-
 .animation-css {
   animation: IsDeveloper 6s infinite linear;
   overflow: hidden;
@@ -111,13 +110,34 @@ html{
   color: rgb(238, 142, 32);
 }
 
+.form-container {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 40%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
 
-@keyframes opening {
-  to {
-    transform: translateY(-40px);
-    opacity: 1;
-  }
-  from {
-    transform: translateY(40px);
-  }
+.form {
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+  justify-content: center;
+}
+
+.form p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+.form textarea {
+  resize: none;
+}
+
+.form input {
+  width: 100%;
 }
