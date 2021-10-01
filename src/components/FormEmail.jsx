@@ -7,7 +7,7 @@ function FormEmail() {
   <form
   action="https://formspree.io/f/xvodyapj"
   method="POST"
-  className="form-group form"
+  className="form"
 >
   <p>Contact me</p>
   <label>
