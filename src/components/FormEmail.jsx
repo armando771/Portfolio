@@ -16,7 +16,7 @@ function FormEmail() {
   </label>
   <label>
     Your message:
-    <textarea name="message" placeholder="Enter your message here:" className="form-control" autoCapitalize="words"
+    <textarea name="message" placeholder="Enter your message here:"
     maxLength="300" minLength="20" required cols="30" rows="6"
      ></textarea>
   </label>

@@ -1,9 +1,9 @@
 import React from "react";
-import ProjectCard from '../components/ProjectCard';
-import Informations from "../data";
+import ProjectCard from '../components/ProjectFrontCard';
+import { FrontEndInformations } from "../data";
 import ContactFront from "./ContactFront";
 import Header from '../components/Header';
-import '../styles/projects.css';
+import '../styles/FrontEnd.css';
 
 function FrontEndProjects() {
   return (
@@ -11,7 +11,7 @@ function FrontEndProjects() {
       <Header buttonBack="true"/>
     <div className="projects-container" >
      {
-      Informations.map((info) => <ProjectCard refs={ info.URLS } title={ info.ProjectName } key={ info.ProjectName } about={ info.AboutProject } /> )
+      FrontEndInformations.map((info) => <ProjectCard refs={ info.URLS } title={ info.ProjectName } key={ info.ProjectName } about={ info.AboutProject } /> )
      }
     </div>
     <ContactFront />

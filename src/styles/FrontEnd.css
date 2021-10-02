@@ -1,0 +1,36 @@
+.links-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  height: 200px;
+  padding: 30px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  background-image: url("../images/FundoBotaoFrontEnd.jpg");
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.links-projects {
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+.Descriptions-Projects {
+  color: white;
+  text-align: justify;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 236, 236);
+}
+
+.links-projects hover {
+  color: white !important;
+}

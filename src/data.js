@@ -1,4 +1,4 @@
-const Informations= [
+const FrontEndInformations= [
 
   {
     URLS:"https://armando771.github.io/Color-Palet.github.io/",
@@ -26,4 +26,52 @@ const Informations= [
   }
 ]
 
-export default Informations;
+
+const FuncionsInformations = [
+  {
+    URLS: "",
+    ProjectName: "",
+    AboutProject: ""
+  },
+  {
+    URLS: "",
+    ProjectName: "",
+    AboutProject: ""
+  },
+  {
+    URLS: "",
+    ProjectName: "",
+    AboutProject: ""
+  },
+  {
+    URLS: "",
+    ProjectName: "",
+    AboutProject: ""
+  },
+  {
+    URLS: "",
+    ProjectName: "",
+    AboutProject: ""
+  },
+]
+
+const BackEndInformations = [
+  {
+    URLS: "",
+    ProjectName: "",
+    AboutProject: ""
+  },
+  {
+    URLS: "",
+    ProjectName: "",
+    AboutProject: ""
+  },
+  {
+    URLS: "",
+    ProjectName: "",
+    AboutProject: ""
+  },
+]
+
+
+export {FuncionsInformations, FrontEndInformations, BackEndInformations};
