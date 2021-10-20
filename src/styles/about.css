@@ -10,6 +10,7 @@
   color: rgb(0, 0, 0);
   height: max-content;
   padding-bottom: 80px;
+  margin-top: 5px;
 }
 
 .hardSkillsContainer {
@@ -18,9 +19,10 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(243, 243, 243);
-  height: 400px;
-  padding: 5px;
-  margin-top: 2px;
+  height: 420px;
+  padding: 5px 5px 10px 5px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 .first-line-tecnologies {

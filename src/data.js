@@ -43,50 +43,5 @@ const FrontEndInformations = [
   },
 ];
 
-const FuncionsInformations = [
-  {
-    URLS: "",
-    ProjectName: "",
-    AboutProject: "",
-  },
-  {
-    URLS: "",
-    ProjectName: "",
-    AboutProject: "",
-  },
-  {
-    URLS: "",
-    ProjectName: "",
-    AboutProject: "",
-  },
-  {
-    URLS: "",
-    ProjectName: "",
-    AboutProject: "",
-  },
-  {
-    URLS: "",
-    ProjectName: "",
-    AboutProject: "",
-  },
-];
 
-const BackEndInformations = [
-  {
-    URLS: "",
-    ProjectName: "",
-    AboutProject: "",
-  },
-  {
-    URLS: "",
-    ProjectName: "",
-    AboutProject: "",
-  },
-  {
-    URLS: "",
-    ProjectName: "",
-    AboutProject: "",
-  },
-];
-
-export { FuncionsInformations, FrontEndInformations, BackEndInformations };
+export { FrontEndInformations };

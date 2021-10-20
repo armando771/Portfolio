@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../styles/footer.css";
 
 class Contact extends React.Component {
@@ -30,8 +29,7 @@ class Contact extends React.Component {
             id="icongit"
           />
         </a>
-
-        <p> Todos direitos reservados: Armando Guerra</p>
+        <p> ©Armando Guerra Starling</p>
       </footer>
     );
   }

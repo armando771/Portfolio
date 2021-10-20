@@ -1,0 +1,90 @@
+.trivia-project-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+}
+
+.trivia-project-container img {
+  width: 700px;
+}
+
+.trivia-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.trivia-description {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  font-family: monospace;
+}
+
+
+
+.pixels-project-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 2px 2px 2px;
+}
+
+.pixels-project-container img {
+  width: 700px;
+}
+
+.pixels-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.pixels-description {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  font-family: monospace;
+}
+
+
+
+
+
+
+.wallet-project-container {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin: 8px 2px 2px 2px;
+}
+
+.wallet-project-container img {
+  width: 800px;
+}
+
+
+
+
+
+
+
+
+.front-project-container {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin: 8px 2px 2px 2px;
+}
+
+.front-project-container img {
+  width: 800px;
+}
+
+
+

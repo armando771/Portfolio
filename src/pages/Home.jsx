@@ -12,9 +12,9 @@ function Home() {
         <main className="mainHomeContainer">
           <div> </div>
           <div className="informationsHome">
-            <h2 className="home-text"> hello. I am </h2>
-            <h1 className="home-text-name"> Armando Guerra</h1>
-            <p className="isDeveloperContainer animation-css"><span id="const">const</span><span id="developer">IsDeveloper</span><span id="recebe">=</span><span id="true">true</span> </p>
+            <h2 className="home-text">hello. I am</h2>
+            <h1 className="home-text-name">Armando Guerra</h1>
+            <p className="isDeveloperContainer animation-css"><span id="const">const</span><span id="developer">IsDeveloper</span><span id="recebe">=</span><span id="true">true</span></p>
           </div>
           <img
             src={ImagePortfolio}

@@ -1,7 +1,8 @@
 import React from 'react';
-import Contact from "./Contact";
 import Header from '../components/Header';
-import '../styles/projects.css'
+import '../styles/projects.css';
+import PrincipalProjects from './PrincipalsProjects';
+import ContactFront from './ContactFront';
 
 function Projects(props){
   function SendToRoutes(route){
@@ -16,6 +17,7 @@ function Projects(props){
         <h1 id="ttileProjects"> My Projects </h1>
         <p id="paragraphProjects">some projects made by me during my web development study </p>
         </div>
+        <PrincipalProjects />
         <hr /> <hr />
          <div className="projects-container-pp">
          <button className="Front-End-Projects" onClick={ () => SendToRoutes('/projects/front-end') }><p className="paragraph-Front-End">Projects Front End</p></button>
@@ -23,7 +25,7 @@ function Projects(props){
          <button className="BackEndProjects" onClick={ () => SendToRoutes('/projects/back-end') }><p className="paragraph-Back-End">Projects Back End</p></button>
          </div>
       </div>
-      <Contact />
+      <ContactFront />
       </div>
     );
   };
