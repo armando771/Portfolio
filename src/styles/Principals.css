@@ -1,7 +1,7 @@
 .trivia-project-container {
   display: flex;
   justify-content: space-between;
-  margin: 2px;
+  margin-bottom: 4%;
 }
 
 .trivia-project-container img {
@@ -21,15 +21,24 @@
   display: flex;
   align-items: center;
   text-align: justify;
+  flex-direction: column;
   font-family: monospace;
 }
 
+.trivia-description img {
+  width: 50px;
+  margin: 3px;
+}
 
+.trivia-description p {
+  margin-left: 20px;
+  margin-top: 20px;
+}
 
 .pixels-project-container {
   display: flex;
   justify-content: space-between;
-  margin: 8px 2px 2px 2px;
+  margin: 8px 2px 4% 2px;
 }
 
 .pixels-project-container img {
@@ -49,42 +58,95 @@
   display: flex;
   align-items: center;
   text-align: justify;
+  flex-direction: column;
   font-family: monospace;
 }
 
+.pixels-description p {
+  margin-right: 20px;
+  margin-top: 20px;
+}
 
+.px {
+  margin-top: 50px;
+}
 
-
-
+.pixels-description img {
+  width: 50px;
+  margin: 3px;
+}
 
 .wallet-project-container {
   display: flex;
-  border: 1px solid black;
   justify-content: space-between;
-  margin: 8px 2px 2px 2px;
+  margin: 8px 2px 4% 2px;
 }
 
 .wallet-project-container img {
   width: 800px;
 }
 
+.wallet-description {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+  font-family: monospace;
+}
 
+.wallet-description p {
+  margin-left: 20px;
+  margin-top: 20px;
+}
 
+.wallet-description img {
+  width: 50px;
+  margin: 3px;
+}
 
-
-
-
+.wallet-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+  margin-bottom: 10px;
+}
 
 .front-project-container {
   display: flex;
-  border: 1px solid black;
   justify-content: space-between;
-  margin: 8px 2px 2px 2px;
+  margin: 8px 2px 4% 2px;
 }
 
 .front-project-container img {
   width: 800px;
+
 }
 
+.front-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 50%;
+  margin-bottom: 10px;
+}
 
+.front-description {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+  font-family: monospace;
+}
 
+.front-description p {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.front-description img {
+  width: 50px;
+  margin: 3px;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import '../styles/projects.css';
 import PrincipalProjects from './PrincipalsProjects';
-import ContactFront from './ContactFront';
+import Contact from './Contact';
 
 function Projects(props){
   function SendToRoutes(route){
@@ -25,7 +25,7 @@ function Projects(props){
          <button className="BackEndProjects" onClick={ () => SendToRoutes('/projects/back-end') }><p className="paragraph-Back-End">Projects Back End</p></button>
          </div>
       </div>
-      <ContactFront />
+      <Contact />
       </div>
     );
   };
