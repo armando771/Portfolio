@@ -1,0 +1,62 @@
+@keyframes IsDeveloper {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+  to {
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+@keyframes homeText {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes homeTextName {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animation-css {
+  animation: IsDeveloper 6s infinite linear;
+  overflow: hidden;
+  animation-direction: initial;
+}
+
+#const {
+  color: rgb(143, 31, 143);
+}
+
+#developer {
+  color: rgb(25, 125, 206);
+}
+
+#recebe {
+  color: rgb(143, 31, 143);
+}
+
+#true {
+  color: rgb(238, 142, 32);
+}
+
+.home-text {
+  animation-name: homeText;
+  animation-duration: 6s;
+}
+
+.home-text-name {
+  animation-name: homeTextName;
+  animation-duration: 6s;
+}

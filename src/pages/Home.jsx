@@ -4,6 +4,7 @@ import ContactFront from "../components/footer/ContactFront";
 import Header from "../components/header/Header";
 import FormEmail from "../components/form/FormEmail";
 import "../styles/home.css";
+import "../styles/homeAnimations.css";
 
 function Home() {
     return (

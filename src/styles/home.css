@@ -1,5 +1,4 @@
-
-html{
+html {
   background-color: rgb(243, 243, 243);
 }
 
@@ -34,8 +33,6 @@ html{
   font-family: monospace;
   font-size: 26px;
   margin: 2px;
-  animation-name: homeText;
-  animation-duration: 6s;
 }
 
 .home-text-name {
@@ -43,8 +40,6 @@ html{
   font-size: 40px;
   margin: 2px;
   margin-bottom: 5px;
-  animation-name: homeTextName;
-  animation-duration: 6s;
 }
 
 .isDeveloperContainer {
@@ -55,57 +50,72 @@ html{
   font-size: 20px;
 }
 
-@keyframes IsDeveloper {
- from {
-   opacity: 0;
-   width: 0;
- }
- to {
-   opacity: 1;
-   width: 100%;
- }
-
-}
-
-@keyframes homeText {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
+@media screen and (max-width: 550px) {
+  .picture {
+    width: 150px;
+    border-radius: 50%;
   }
-  to {
-    opacity: 1;
-  }
-  
-}
 
-@keyframes homeTextName {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
+  .home-text-name {
+    font-size: 20px;
+    margin-bottom: 10px;
   }
-  to {
-    opacity: 1;
+
+  .home-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .isDeveloperContainer {
+    font-size: 14px;
+  }
+
+  .informationsHome {
+    width: 50%;
+  }
+
+  .mainHomeContainer {
+    margin: 3px;
   }
 }
 
-.animation-css {
-  animation: IsDeveloper 6s infinite linear;
-  overflow: hidden;
-  animation-direction: initial;
+@media screen and (min-width: 551px) and (max-width: 700px) {
+  .picture { 
+    width: 200px;
+  }
+
+  .home-text-name {
+    font-size: 30px;
+  }
+
+  .home-text {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .isDeveloperContainer {
+    font-size: 18px;
+  }
+
 }
 
-#const {
-  color: rgb(143, 31, 143);
-}
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  .picture { 
+    width: 250px;
+  }
 
-#developer {
-  color: rgb(25, 125, 206);
-}
+  .home-text-name {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
 
-#recebe {
-  color: rgb(143, 31, 143);
-}
+  .home-text {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
 
-#true {
-  color: rgb(238, 142, 32);
+  .isDeveloperContainer {
+    font-size: 22px;
+  }
+
 }
