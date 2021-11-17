@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/home.css";
+import { Form } from './style';
 
 function FormEmail() {
   return (
-    <div className="form-container">
+    <Form>
   <form
   action="https://formspree.io/f/xvodyapj"
   method="POST"
@@ -22,7 +22,7 @@ function FormEmail() {
   </label>
   <button type="submit">Send</button>
 </form>
-    </div>
+    </Form>
   )
 }
 

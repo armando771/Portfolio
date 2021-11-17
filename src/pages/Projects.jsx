@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+import Header from "../components/header/Header";
 import '../styles/projects.css';
 import PrincipalProjects from './PrincipalsProjects';
 import Contact from './Contact';
@@ -21,8 +21,6 @@ function Projects(props){
         <hr /> <hr />
          <div className="projects-container-pp">
          <button className="Front-End-Projects" onClick={ () => SendToRoutes('/projects/front-end') }><p className="paragraph-Front-End">Projects Front End</p></button>
-         <button className="FunctionsProjects" onClick={ () => SendToRoutes('/projects/functions') }><p className="paragraph-Functions">Projects Functions</p></button>
-         <button className="BackEndProjects" onClick={ () => SendToRoutes('/projects/back-end') }><p className="paragraph-Back-End">Projects Back End</p></button>
          </div>
       </div>
       <Contact />

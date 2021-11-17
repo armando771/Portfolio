@@ -1,12 +1,11 @@
 import React from "react";
-import "../styles/footerFront.css";
+import { Footer } from './style.js'
 
 class ContactFront extends React.Component {
   render() {
     return (
-      <footer className="footer-bar-front">
+      <Footer>
         <a
-          className="link-footer-linkedin-front"
           href="https://www.linkedin.com/in/armando-starling-43b3b8201/"
           target="_blank"
           rel="noreferrer"
@@ -14,11 +13,9 @@ class ContactFront extends React.Component {
           <img
             src="https://image.flaticon.com/icons/png/512/174/174857.png"
             alt="icon-linkedin"
-            id="iconlinkedin-front"
           />
         </a>
         <a
-          className="link-footer-github-front"
           href="https://github.com/armando771"
           target="_blank"
           rel="noreferrer"
@@ -26,11 +23,10 @@ class ContactFront extends React.Component {
           <img
             src="https://image.flaticon.com/icons/png/512/25/25231.png"
             alt="icon-github"
-            id="icongit-front"
           />
         </a>
         <p>©Armando Guerra Starling</p>
-      </footer>
+      </Footer>
     );
   }
 }

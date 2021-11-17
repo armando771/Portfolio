@@ -1,8 +1,8 @@
 import React from "react";
 import ImagePortfolio from "../images/imagePortfolio.jpg";
-import ContactFront from "./ContactFront";
-import Header from "../components/Header";
-import FormEmail from "../components/FormEmail";
+import ContactFront from "../components/footer/ContactFront";
+import Header from "../components/header/Header";
+import FormEmail from "../components/form/FormEmail";
 import "../styles/home.css";
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
             className="picture"
           />
         </main>
-         <FormEmail />
+        <FormEmail />
         <ContactFront />
       </>
     );
